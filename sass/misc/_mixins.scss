@@ -1,0 +1,18 @@
+@mixin contenido {
+    display:inline-flex; 
+    justify-content: center; 
+    width:100%;
+    text-align:center;
+}
+
+@mixin boton {
+    background-color: grey;
+    color: white;
+    font-family: $fuentePrinicipal;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 5px;
+    cursor:pointer ;
+}

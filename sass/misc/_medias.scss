@@ -1,0 +1,67 @@
+/*-- mobile responsive --*/
+
+
+@media screen and (max-width: 390px){
+	
+	.footer__media--img {
+        display: inline-flex;
+	    margin: 0% auto;
+    }
+	.footer__copyright {
+	    font-size: 12px;
+    }
+	.noticias {
+        display: block;
+        &__rectangulo {
+            font-size: 14px;
+            width: 300px;
+        }    
+	}
+	#logoCabezal {
+        width: 70%;
+	    padding: 10px 50px 0px -70px;
+	    margin: -10px;
+    }
+	.header {
+        height: 150px;
+
+        &__link {
+            display: inline-block;
+            text-align: center;
+        }
+
+        &__menu {
+            padding: 62px 0px 60px 0px;
+            margin: -10px -20px -40px -120px;
+            text-align:left;
+            font-size: 10px;
+        }
+	}
+	.imagenNoticias {
+        height: 300px;
+	}
+	.imagenFondo {  
+        object-fit:cover;
+	    height: 100%;
+    }
+	.textoEncima {
+        margin: 50px 10px 30px 30px;
+	    text-align: center;
+	    width: 300px;
+    }
+	.bandas {
+        display: block;
+    }
+    .form {
+        width: 90%;
+    }
+    .textoNosotros {
+        margin-left: 70px;
+        margin-right: 70px;
+        padding-bottom: 80px;
+        text-align: center;
+    }
+    
+    
+}
+

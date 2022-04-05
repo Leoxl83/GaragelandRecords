@@ -1,0 +1,23 @@
+.footer {
+    grid-row: 3;
+    background-color: $colorTres;
+    color: $colorCuatro;
+    padding: 10px;
+
+    &__media {
+        text-align: center;
+        
+        &--img {
+            width: 50px;
+            height: 50px;
+            padding: 0px 10px 20px 10px;
+        }
+    }
+
+    &__copyright{
+        background-color: $colorDos ;
+        text-align: center;
+        padding: 10px 0px;
+        margin: 0 -10px -10px -10px;
+    }    
+}

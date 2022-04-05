@@ -1,0 +1,11 @@
+.lanzamientos {
+    display: inline-flex;  
+    flex-wrap: wrap; 
+    justify-content: center;
+}    
+
+.lanzamientosRectangulo {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+}

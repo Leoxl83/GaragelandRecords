@@ -1,0 +1,42 @@
+.header{
+  @extend %header;
+
+    &__menu {
+        padding-left: 500px;
+        margin-top: -30px;
+    }    
+
+    &__link {
+        display: inline;
+        color: white;
+        text-align: left;
+        padding: 14px 0px;
+        text-decoration: none;
+
+        & a {
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+
+            &:active {
+                background-color: #616161;
+            }
+
+            &:hover {
+                background-color: $colorCuatro;
+                border-radius: 8%;
+            }
+        }
+       
+    }
+    
+}
+
+#logoCabezal {
+    width: 300px;
+    transition: 0.5s all ease-in-out;
+    &:hover {
+        transform: scale(1.10);
+    }
+}

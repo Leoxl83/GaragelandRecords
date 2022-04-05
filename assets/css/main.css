@@ -1,0 +1,209 @@
+/*colores*/
+/*Fuente*/
+.header {
+  grid-row: 1;
+  background-color: #202020;
+  height: 110px;
+  padding: 30px 0 30px 120px;
+  border-bottom: 6px solid #7e7e7e; }
+
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: auto;
+  min-height: 100vh;
+  font-family: "Raleway", sans-serif;
+  background-color: #ccc;
+  margin: 0% auto;
+  width: 100%; }
+
+main {
+  grid-row: 2; }
+
+.titulo {
+  text-align: center;
+  margin: 20px 0px 0px 0px; }
+
+.header__menu {
+  padding-left: 500px;
+  margin-top: -30px; }
+
+.header__link {
+  display: inline;
+  color: white;
+  text-align: left;
+  padding: 14px 0px;
+  text-decoration: none; }
+  .header__link a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; }
+    .header__link a:active {
+      background-color: #616161; }
+    .header__link a:hover {
+      background-color: #e48585;
+      border-radius: 8%; }
+
+#logoCabezal {
+  width: 300px;
+  transition: 0.5s all ease-in-out; }
+  #logoCabezal:hover {
+    transform: scale(1.1); }
+
+.footer {
+  grid-row: 3;
+  background-color: #363836;
+  color: #e48585;
+  padding: 10px; }
+  .footer__media {
+    text-align: center; }
+    .footer__media--img {
+      width: 50px;
+      height: 50px;
+      padding: 0px 10px 20px 10px; }
+  .footer__copyright {
+    background-color: #202020;
+    text-align: center;
+    padding: 10px 0px;
+    margin: 0 -10px -10px -10px; }
+
+/*Seccion Noticias*/
+.imagenNoticias {
+  position: relative;
+  text-align: center;
+  background-color: black; }
+
+.imagenFondo {
+  opacity: 50%; }
+
+.textoEncima {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  text-align: left;
+  width: 400px;
+  margin: 20px 20px 20px 100px;
+  color: white; }
+
+.noticias {
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+  text-align: center; }
+  .noticias__rectangulo {
+    width: 300px;
+    margin: 50px; }
+
+.bandas {
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+  text-align: center; }
+  .bandas__rectangulo {
+    width: 300px;
+    margin: 30px;
+    background-color: #fce9e96b;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.466);
+    border-radius: 10px; }
+
+.bandaImagen {
+  padding-top: 25px; }
+
+.textoNosotros {
+  margin-left: 300px;
+  margin-right: 300px;
+  padding-bottom: 80px;
+  text-align: center; }
+
+.textoContacto {
+  margin: 10px;
+  text-align: center; }
+
+/* formulario */
+form {
+  margin: 0 auto;
+  width: 500px;
+  background-color: rgba(255, 255, 255, 0.651);
+  padding: 5px;
+  border-radius: 10px; }
+
+input, textarea {
+  padding: 5px;
+  width: 80%; }
+
+label {
+  display: block;
+  padding: 5px; }
+
+ul {
+  list-style: none; }
+
+.btn {
+  margin-top: 10px; }
+
+button {
+  background-color: grey;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 5px;
+  cursor: pointer; }
+
+.lanzamientos {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.lanzamientosRectangulo {
+  width: 300px;
+  margin: 20px;
+  text-align: center; }
+
+/*-- mobile responsive --*/
+@media screen and (max-width: 390px) {
+  .footer__media--img {
+    display: inline-flex;
+    margin: 0% auto; }
+  .footer__copyright {
+    font-size: 12px; }
+  .noticias {
+    display: block; }
+    .noticias__rectangulo {
+      font-size: 14px;
+      width: 300px; }
+  #logoCabezal {
+    width: 70%;
+    padding: 10px 50px 0px -70px;
+    margin: -10px; }
+  .header {
+    height: 150px; }
+    .header__link {
+      display: inline-block;
+      text-align: center; }
+    .header__menu {
+      padding: 62px 0px 60px 0px;
+      margin: -10px -20px -40px -120px;
+      text-align: left;
+      font-size: 10px; }
+  .imagenNoticias {
+    height: 300px; }
+  .imagenFondo {
+    object-fit: cover;
+    height: 100%; }
+  .textoEncima {
+    margin: 50px 10px 30px 30px;
+    text-align: center;
+    width: 300px; }
+  .bandas {
+    display: block; }
+  .form {
+    width: 90%; }
+  .textoNosotros {
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-bottom: 80px;
+    text-align: center; } }
