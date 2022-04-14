@@ -1,5 +1,6 @@
 @mixin contenido {
-    display:inline-flex; 
+    display:inline-flex;
+    flex-wrap: wrap; 
     justify-content: center; 
     width:100%;
     text-align:center;

@@ -22,7 +22,7 @@ main {
 
 .titulo {
   text-align: center;
-  margin: 20px 0px 0px 0px; }
+  margin: 30px 0px 30px 0px; }
 
 .header__menu {
   padding-left: 500px;
@@ -88,6 +88,7 @@ main {
 
 .noticias {
   display: inline-flex;
+  flex-wrap: wrap;
   justify-content: center;
   width: 100%;
   text-align: center; }
@@ -97,6 +98,7 @@ main {
 
 .bandas {
   display: inline-flex;
+  flex-wrap: wrap;
   justify-content: center;
   width: 100%;
   text-align: center; }
@@ -109,6 +111,12 @@ main {
 
 .bandaImagen {
   padding-top: 25px; }
+
+#cardBandas {
+  width: 300px;
+  transition: 0.5s all ease-in-out; }
+  #cardBandas:hover {
+    transform: scale(1.05); }
 
 .textoNosotros {
   margin-left: 300px;
