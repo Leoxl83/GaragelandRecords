@@ -82,7 +82,7 @@ main {
   top: 10px;
   left: 10px;
   text-align: left;
-  width: 400px;
+  width: 550px;
   margin: 20px 20px 20px 100px;
   color: white; }
 
@@ -111,6 +111,14 @@ main {
 
 .bandaImagen {
   padding-top: 25px; }
+
+p {
+  margin: 25px;
+  padding-bottom: 25px; }
+
+a {
+  text-decoration: none;
+  color: black; }
 
 #cardBandas {
   width: 300px;
@@ -164,12 +172,39 @@ button {
 .lanzamientos {
   display: inline-flex;
   flex-wrap: wrap;
-  justify-content: center; }
+  justify-content: space-evenly;
+  margin: 30px;
+  gap: 30px; }
 
-.lanzamientosRectangulo {
+.flip-container {
+  background-color: transparent;
   width: 300px;
-  margin: 20px;
-  text-align: center; }
+  height: 300px;
+  perspective: 1000px; }
+
+.card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1.5s;
+  transform-style: preserve-3d; }
+
+.flip-container:hover .card {
+  transform: rotateY(180deg); }
+
+.front, .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem; }
+
+.back {
+  transform: rotateY(180deg); }
 
 /*-- mobile responsive --*/
 @media screen and (max-width: 390px) {
