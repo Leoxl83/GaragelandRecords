@@ -94,7 +94,9 @@ main {
   text-align: center; }
   .noticias__rectangulo {
     width: 300px;
-    margin: 50px; }
+    margin: 30px;
+    background-color: #fce9e96b;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.466); }
 
 .bandas {
   display: inline-flex;
@@ -214,7 +216,7 @@ button {
   .footer__copyright {
     font-size: 12px; }
   .noticias {
-    display: block; }
+    display: grid; }
     .noticias__rectangulo {
       font-size: 14px;
       width: 300px; }
@@ -242,7 +244,7 @@ button {
     text-align: center;
     width: 300px; }
   .bandas {
-    display: block; }
+    display: grid; }
   .form {
     width: 90%; }
   .textoNosotros {
