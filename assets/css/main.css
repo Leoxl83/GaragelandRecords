@@ -55,7 +55,8 @@ main {
   grid-row: 3;
   background-color: #363836;
   color: #e48585;
-  padding: 10px; }
+  padding: 10px;
+  margin-top: 50px; }
   .footer__media {
     text-align: center; }
     .footer__media--img {
@@ -106,7 +107,7 @@ main {
   text-align: center; }
   .bandas__rectangulo {
     width: 300px;
-    margin: 30px;
+    margin: 20px;
     background-color: #fce9e96b;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.466);
     border-radius: 10px; }
