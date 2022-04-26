@@ -304,7 +304,7 @@ button {
     height: 150px;
     width: 100%; } }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 375px) {
   .header {
     height: 135px; }
     .header .header__link {
