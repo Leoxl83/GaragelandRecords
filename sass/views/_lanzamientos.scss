@@ -1,14 +1,13 @@
-
 .lanzamientos{
-    display:inline-flex;
+    display: inline-flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 30px;
-    gap: 30px;
+    gap: 20px;
 }
-
 .flip-container {
     background-color: transparent;
+    margin: 20px;
     width: 300px;
     height: 300px;
     perspective: 1000px; 

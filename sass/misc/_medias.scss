@@ -1,67 +1,151 @@
-/*-- mobile responsive --*/
+/*--Responsive --*/
 
 
-@media screen and (max-width: 390px){
-	
-	.footer__media--img {
-        display: inline-flex;
-	    margin: 0% auto;
-    }
-	.footer__copyright {
-	    font-size: 12px;
-    }
-	.noticias {
-        display: grid;
-        &__rectangulo {
-            font-size: 14px;
-            width: 300px;
-        }    
-	}
-	#logoCabezal {
-        width: 70%;
-	    padding: 10px 50px 0px -70px;
-	    margin: -10px;
-    }
-	.header {
-        height: 150px;
-
-        &__link {
-            display: inline-block;
-            text-align: center;
-        }
+@media screen and(max-width: 900px) {
+    
+    .header {
+        height: 90px;
 
         &__menu {
-            padding: 62px 0px 60px 0px;
-            margin: -10px -20px -40px -120px;
-            text-align:left;
-            font-size: 10px;
+            float: right;
+            margin: 35px;
         }
-	}
-	.imagenNoticias {
+    }
+    #logoCabezal {
+        width: 20%;
+	    margin: -60px;
+        margin-left: 120px;
+    }
+
+    .slider{
         height: 300px;
-	}
-	.imagenFondo {  
-        object-fit:cover;
-	    height: 100%;
     }
-	.textoEncima {
-        margin: 50px 10px 30px 30px;
-	    text-align: center;
-	    width: 300px;
+    .slider img {
+        height: 300px;
+        width: 100%;
     }
-	.bandas {
-        display: grid;
+   
+    .textoNosotros{
+        margin-left: 100px;
+        margin-right: 100px;
     }
+}
+
+@media screen and (max-width:768px) {
+    .header{
+        height: 90px;
+
+        &__menu{
+            font-size: 14px;
+        }
+    }
+
+    #logoCabezal {
+        width: 23%;
+	    margin: -55px;
+        margin-left: 60px;
+    }
+
+    .slider{
+        height: 250px;
+    }
+    .slider img {
+        height: 250px;
+        width: 100%;
+    }
+}
+
+
+@media screen and(max-width:480px) {
+    #logoCabezal {
+        width: 30%;
+        margin:15px;
+        margin-left: 160px;
+    }
+    
+    .header {
+        height: 135px; 
+    
+        .header__link {
+            display: inline-block;
+            text-align: center;
+            padding: 0px; 
+        }
+        .header__menu {
+            margin: 10px 30px -40px -120px;
+            text-align: center;
+            font-size: 12px;
+        }
+    }
+
+    .slider{
+        height: 150px;
+    }
+    .slider img {
+        height: 150px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 390px){
+    .header {
+        height: 135px;
+
+        .header__link {
+          display: inline-block;
+          text-align: center; 
+        }
+
+        .header__menu {
+          font-size: 10px; 
+          margin: 6px;
+        }          
+    }
+
+    .slider{
+        height: 130px;
+    }
+    .slider img {
+        height: 130px;
+        width: 100%;
+    }
+
+    .footer__media--img {
+        display: inline-flex;
+        margin: 0% auto; 
+    }
+     
+    .footer__copyright {
+        font-size: 12px; 
+    }
+    
+    .noticias {
+        display: grid; 
+    }
+     
+    .noticias__rectangulo {
+        font-size: 14px;
+        width: 300px; 
+    }
+
+    #logoCabezal {
+        width: 40%;
+        margin: 12px 115px; 
+    }
+
+    .bandas {
+        display: grid; 
+    }
+    
     .form {
-        width: 90%;
+        width: 90%; 
     }
+    
     .textoNosotros {
         margin-left: 70px;
         margin-right: 70px;
         padding-bottom: 80px;
         text-align: center;
     }
-    
- 
-}
+}    
 
